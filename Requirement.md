@@ -142,8 +142,8 @@ CatusOS需要实现分页式存储管理的基本功能:
 
 catusOS需要提供程序可以利用于文件读写的api
 
-	- 功能1: file descriptor, 文件描述符
-	- 功能2: fopen 和 fclose 等文件系统api
+- 功能1: file descriptor, 文件描述符
+- 功能2: fopen 和 fclose 等文件系统api
 
 #### 使用inode的文件结构
 
@@ -158,6 +158,18 @@ catusOS需要提供程序可以利用于文件读写的api
 - 功能1: 块设备管理驱动
 - 功能2: 块设备接口
 - 功能3: 块设备缓存
+
+
+
+### Profile, Test, Benchmark
+
+在CatusOS中, 需要提供可靠的测试方法和性能测试
+
+具体要求可以参考测试文档
+
+- 功能1: Profile, 需要提供一个获得当前系统状态快照的方法
+- 功能2: Test, 操作系统需要标准的测试流程, 搭建CI/CD工作流
+- 功能3: Benchmark, 设计或寻找可以测试操作系统性能的程序
 
 
 
